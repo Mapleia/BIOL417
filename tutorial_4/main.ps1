@@ -7,5 +7,5 @@ if (!$3gene_exists) {
 Copy-Item -Path ".\tutorial_4\setup\partition_finder.cfg" -Destination ".\tutorial_4\3gene"
 
 docker run -v "${PWD}\tutorial_4\3gene:/app/3gene" --rm `
-  "biol417/tutorial4:latest" `
+  "biol417/partitionfinder:latest" `
   python "partitionfinder-2.1.1//PartitionFinder.py" "./3gene"
