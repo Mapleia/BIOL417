@@ -1,0 +1,1 @@
+docker build -f lab_6/Dockerfile -t biol417/notung:v1.1 .
