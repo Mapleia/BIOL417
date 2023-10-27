@@ -14,7 +14,7 @@ RUN wget https://github.com/${GH_USER}/${GH_REPO}/archive/refs/tags/${GH_BRANCH}
   unzip ./"${GH_REPO}-${GH_BRANCH}.zip" && \
   rm ./"${GH_REPO}-${GH_BRANCH}.zip"
 
-COPY requirements.txt requirements.txt
+COPY lab_4/requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
-CMD ["/bin/bash"]
+CMD [/bin/bash]
