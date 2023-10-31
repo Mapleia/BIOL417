@@ -3,4 +3,4 @@ echo $vol
 docker run --rm `
   -v $vol `
   "biol417/notung:v1.1" `
-  "java" "-jar" "Notung-2.9.1.5.jar" "--reconcile" "-g" "lab_data//Test_Gene.tre" "--parsable" "--treestats" "-s" "lab_data//Test_Species.tre" "-outputdir" "lab_data//out" "--log"
+  "java" "-jar" "Notung-2.9.1.5.jar" "--speciestag" "prefix" "--reconcile" "-g" "lab_data//ldh//ldh_gene.tre" "-s" "lab_data//ldh//ldh_species.tre" "-outputdir" "lab_data//ldh//out"

@@ -5,3 +5,4 @@ setup/partitionfinder2.zip
 raxml_out
 **/analysis
 **/log.txt
+3gene/*.cfg
