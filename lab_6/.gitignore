@@ -16,4 +16,5 @@ lab_data/out/*
 !lab_data/out/.gitkeep
 
 lab_data/*.tre
+lab_data/*.txt
 /Notung-*
